@@ -1,5 +1,5 @@
 import tkinter as ttk 
-import tkinter as tk
+# import tkinter as tk
 
 calcValue = ""
 
@@ -19,7 +19,7 @@ def clearInput():
     numericEq.set("")
 
 
-win = tk.Tk()
+win = ttk.Tk()
 win.title('wordaforum')
 win.geometry('500x500')
 
